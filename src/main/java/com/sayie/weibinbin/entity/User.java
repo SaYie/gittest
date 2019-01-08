@@ -1,5 +1,10 @@
 package com.sayie.weibinbin.entity;
 
+import org.hibernate.annotations.Table;
+
+import javax.persistence.Entity;
+
+@Entity
 public class User {
     private String username;
     private String password;
